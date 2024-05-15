@@ -1,0 +1,129 @@
+
+.checkout .title{
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+
+
+.checkout form{
+  max-width: 50rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 2rem;
+
+}
+
+.checkout form h3{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  padding: 2rem 0;
+
+}
+
+.checkout form .cart-items{
+  background-color: #d9d9d9;
+  padding: 2rem;
+  padding-top: 0 ;
+
+}
+
+.checkout form .cart-items h3{
+  color: white; /*change later*/
+}
+
+.checkout form .cart-items p{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin : 1rem 0;
+  line-height: 1.5rem;
+  font-size: 1.8rem;
+
+}
+
+.checkout form .cart-items p .name{
+  color:black; /*change later*/
+}
+
+.checkout form .cart-items p .price{
+  color:black; /*change later*/
+}
+
+
+.checkout form .cart-items .grand-total{
+  background-color: white;
+  padding: .5rem 1.5rem;
+}
+
+.checkout form .cart-items .grand-total .price{
+  color: red;
+
+}
+
+
+
+.checkout form .user-info p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+
+.checkout form .user-info p i{
+  color: black; /*change later*/
+  margin-right: 1rem;
+}
+
+.checkout form .user-info .box{
+  width: 100%;
+  border: 1pz solid black;
+  padding: 1.4rem;
+
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.checkout .cart-items .hero-btn:hover{
+  background-color: #9d9d9d;
+}
+
+/*order styles*/
+.orders .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1.25rem;
+}
+
+.orders .title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.orders .box {
+  background-color: #f9f9f9;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.3125rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.orders .box p {
+  margin: 0.3125rem 0;
+}
+
+.orders .box span {
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #4e4e4e;
+}
+
+@media (max-width: 48rem) {
+  .orders .box {
+    width: 100%;
+  }
+}

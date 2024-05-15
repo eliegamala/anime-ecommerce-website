@@ -1,0 +1,151 @@
+.contact {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .row {
+  width: 50rem;
+}
+
+.contact .row form {
+  border: 1px solid black;
+  flex: 1 1 40rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.contact .row form .box {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+  background-color: #fff; /* Set background color to white */
+}
+
+.contact .row form textarea {
+  width: 100%;
+  height: 10rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0.5rem 0;
+  resize: vertical;
+  box-sizing: border-box;
+  background-color: #fff; /* Set background color to white */
+}
+
+.contact .row form .hero-btn {
+  border: none;
+}
+/* Optional: Hover effect */
+.contact .row form .box:hover,
+.contact .row form textarea:hover {
+  border-color: #666; /* Darken border color on hover */
+}
+
+
+/* Form container */
+
+
+
+.form-container {
+ margin: auto 1rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.form-container form {
+  max-width: 50rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-container form h3 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.form-container form .box {
+  margin: 1rem 0;
+  padding: 1.4rem;
+  color: black;
+  border: 1px solid black;
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.form-container form p {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.form-container form p a {
+  font-size: 1.5rem;
+  color:#707070;
+}
+
+.form-container form p a:hover {
+  color: black;
+}
+
+
+/*profile styles*/
+.user-details{
+
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.user-details .user {
+  border: 1px solid black;
+  padding: 2rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.user-details .user img {
+  width: 100%;
+  height: 15rem;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+
+.user-details .user p {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.user-details .user p span {
+  color: #707070;
+}
+
+.user-details .user i {
+  margin-right: 0.7rem;
+  color: black;
+}
+
+.user-details .user p.address {
+  margin-top: 2rem;
+}
+
+
+
+

@@ -1,0 +1,137 @@
+.products .box-container .product-btns .fa-edit {
+  width: 5rem;
+  background-color: black;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 4rem;
+  border: 1px solid black;
+}
+
+.products .box-container .product-btns .fa-edit:hover {
+  background-color: #d9d9d9;
+  color: black;
+}
+
+.products .box-container .cat-box .fa-times {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgb(25, 24, 24);
+  color: white;
+  border: 1px solid black;
+  line-height: 4rem;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.container-cart {
+  max-width: 50rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ .cart-title{
+  font-size: 4rems;
+  text-align: center;
+  margin: 2rem;
+}
+
+.cart {
+  margin-top: 1.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 0.0625rem solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.cart-info {
+  display: flex;
+}
+
+.cart-info img {
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+.cart-info p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.cart-info span {
+  color: #555;
+}
+
+.qty {
+  width: 3.125rem;
+  padding: 0.3125rem;
+}
+
+.total-price {
+  margin-top: 1.25rem;
+  border-top: 0.125rem solid #333;
+  padding-top: 1.25rem;
+}
+
+.total-price table {
+  width: 100%;
+}
+
+.total-price table tr {
+
+  display: flex;
+ justify-content: flex-end;
+ margin-right: 4rem;
+ 
+}
+
+
+.total-price td {
+  padding: 1rem;
+}
+
+.removebtn{
+  padding: 0.4rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border: none;
+}
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0.625rem;
+  text-decoration: none;
+  margin-top: 1.25rem;
+}
+
+.checkout:hover {
+  background-color: #d9d9d9;
+  color: #333;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 37.5rem) {
+  .cart-info img {
+    width: 3.75rem;
+    margin-right: 0.625rem;
+  }
+  
+  .qty {
+    width: 2.5rem;
+  }
+}

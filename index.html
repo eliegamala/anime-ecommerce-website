@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/aboutStyles.css" />
+
+
+    <!--javascript slider-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+  </head>
+  <body>
+  
+    <!--header-->
+    <header>
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+
+          <!--logo-->
+          <a href="#home" class="logo "> <img src="logo/logo.svg"></a>
+
+
+          <!--navigation-->
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+          
+            <li class="nav-item">
+              <a href="orders.html" class="nav-link">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+           
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+         
+          </ul>
+
+      
+      
+
+          <!--icons-->
+          <div class="icons d-flex">
+
+                <!--search bar-->
+          <section class="search-form">
+            <form action="" method="post">
+               <input type="text" class="box" name="search_box" placeholder="search here..." maxlength="100">
+               <button type="submit" class="fas fa-search" name="search_btn"></button>
+            </form>
+         </section>
+         
+            <div id="user-btn" class="bx bx-user"></div>           
+            <a href="cart.html" class="icon"><i class="bx bx-cart"></i><span>(3)</span></a>
+          </div>
+
+          
+          <!--menu-hamburger-->
+          <div class="menu-icon">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+        <!--move this later-->
+            <div class="profile">
+              <p class="name"> elie gamala</p>
+              <div class="profile-btn">
+                <a href="profile.html" class="btn"> profile</a>
+                <a href="#" class="delete-btn"> logout</a>
+              </div>
+              <p class="account"> <a href="login.html">login</a> or <a href="register.html">register</a></p>
+            </div>
+
+
+             
+      </div>
+      
+    </header>
+
+
+  
+
+        <!--herosection begins-->
+
+        <section class="hero">
+          <div class="glide" id="glide_1">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="center">
+                  <div class="left">
+                    <span class="">Anime</span>
+                    <h1 class="">Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="hero-btn">SHOP NOW</a>
+                  </div>
+                  <div class="right">
+                      <img class="img1" src="./images/hero-1.png" alt="">
+                  </div>
+                </div>
+              </li>
+    
+            
+              <li class="glide__slide">
+                <div class="center">
+                  <div class="left">
+                    <span>New merch</span>
+                    <h1>Lorem dtps mon!</h1>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <a href="#" class="hero-btn">SHOP NOW</a>
+                  </div>
+                  <div class="right">
+                    <img class="img2" src="./images/hero-3.png" alt="">
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      </section>
+
+<!--categories section-->
+
+<div class="section-title">
+  <h1>Categories</h1>
+  <p>"Unleash Your Otaku Spirit: Dive into Our Diverse Categories!"</p>
+</div>
+
+       <section class="category-container">
+        <div class="cat-center">
+          <a href="#" class="cat">
+            <img src="images/category-1.png">
+            <div>
+              <p class="category-title">FIGURINE</p>
+            </div>
+          </a>
+
+          <a class="cat">
+            <img src="images/category-2.png">
+            <div>
+              <p class="category-title">CLOTHES</p>
+            </div>
+          </a>
+
+          <a class="cat">
+            <img src="images/category-3.png">
+            <div>
+              <p class="category-title">MERCHANDISE</p>
+            </div>
+          </a>
+
+          <a class="cat">
+            <img src="images/catergory-4.png">
+            <div>
+              <p class="category-title">MANGA</p>
+            </div>
+          </a>
+        </div>
+       </section>
+       
+
+       <!--new arrivals-->
+       <div class="section-title">
+        <h1>New Arrivals</h1>
+        <p>""Fresh Finds, New Thrills: Dive into Our Latest Anime Arrivals!"</p>
+      </div>
+      
+
+        <section class="products">
+
+          <div class="box-container">
+           <form action="" method="post" class="cat-box">
+                <a href="quick_view.html" class="fas fa-eye"></a>
+                <!--image-->
+                <img src="images/product-1.png">
+
+              <div class="product-info">
+                    <a href="#" class="category-title">figurine</a>
+                    <p class="name">gear 5 figurine</p>
+                    <p class="price"><span>R</span>3</p>
+              </div>
+
+              <div class="product-btns d-flex">
+                <button type="submit" name="add_to_cart">add to cart</button>
+                <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+              </div>
+          </form>
+
+
+          <!--second-->
+
+          <form action="" method="post" class="cat-box">
+            <a href="quick_view.html" class="fas fa-eye"></a>
+            <!--image-->
+            <img src="images/product-2.png">
+
+          <div class="product-info">
+                <a href="#" class="category-title">clothes</a>
+                <p class="name">rengoku hoodie</p>
+                <p class="price"><span>R</span>3</p>
+          </div>
+
+          <div class="product-btns d-flex">
+            <button type="submit" name="add_to_cart">add to cart</button>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+      </form>
+
+
+      <!--third-->
+      <form action="" method="post" class="cat-box">
+            <a href="quick_view.html" class="fas fa-eye"></a>
+            <!--image-->
+            <img src="images/product-3.png">
+
+          <div class="product-info">
+                <a href="#" class="category-title">merchandise</a>
+                <p class="name">nico robin wanted poster</p>
+                <p class="price"><span>R</span>3</p>
+          </div>
+
+          <div class="product-btns d-flex">
+            <button type="submit" name="add_to_cart">add to cart</button>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+       </form>
+
+    <!--fourth-->
+
+    <form action="" method="post" class="cat-box">
+      <a href="quick_view.html" class="fas fa-eye"></a>
+      <!--image-->
+      <img src="images/product-4.png">
+
+    <div class="product-info">
+          <a href="#" class="category-title">figurine</a>
+          <p class="name">demon nezuko figurine</p>
+          <p class="price"><span>R</span>3</p>
+    </div>
+
+    <div class="product-btns d-flex">
+      <button type="submit" name="add_to_cart">add to cart</button>
+      <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+    </div>
+  </form>
+
+<!--fifth-->
+    <form action="" method="post" class="cat-box">
+        <a href="quick_view.html" class="fas fa-eye"></a>
+        <!--image-->
+        <img src="images/product-5.png">
+
+      <div class="product-info">
+            <a href="#" class="category-title">clothes</a>
+            <p class="name">Ywach graphic tee</p>
+            <p class="price"><span>R</span>3</p>
+      </div>
+
+      <div class="product-btns d-flex">
+        <button type="submit" name="add_to_cart">add to cart</button>
+        <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+      </div>
+    </form>
+
+<!--sixth-->
+      <form action="" method="post" class="cat-box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <!--image-->
+          <img src="images/product-6.png">
+
+        <div class="product-info">
+              <a href="#" class="category-title">merchandise</a>
+              <p class="name">dragon balls</p>
+              <p class="price"><span>R</span>3</p>
+        </div>
+
+        <div class="product-btns d-flex">
+          <button type="submit" name="add_to_cart">add to cart</button>
+          <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+        </div>
+       </form>
+
+
+       <!--seventh-->
+       <form action="" method="post" class="cat-box">
+        <a href="quick_view.html" class="fas fa-eye"></a>
+        <!--image-->
+        <img src="images/product-7.png">
+
+      <div class="product-info">
+            <a href="#" class="category-title">merchandise</a>
+            <p class="name">demon blade</p>
+            <p class="price"><span>R</span>3</p>
+      </div>
+
+      <div class="product-btns d-flex">
+        <button type="submit" name="add_to_cart">add to cart</button>
+        <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+      </div>
+  </form>
+
+  <!--8th-->
+  <form action="" method="post" class="cat-box">
+        <a href="quick_view.html" class="fas fa-eye"></a>
+    <!--image-->
+         <img src="images/product-8.png">
+
+            <div class="product-info">
+              <a href="#" class="category-title">clothes</a>
+             <p class="name">kirby beanie</p>
+             <p class="price"><span>R</span>3</p>
+            </div>
+
+            <div class="product-btns d-flex">
+              <button type="submit" name="add_to_cart">add to cart</button>
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+            </div>
+          </form>
+
+
+          <form action="" method="post" class="cat-box">
+            <a href="quick_view.html" class="fas fa-eye"></a>
+            <!--image-->
+            <img src="images/product-9.png">
+
+          <div class="product-info">
+                <a href="#" class="category-title">manga</a>
+                <p class="name">devilman crybaby</p>
+                <p class="price"><span>R</span>3</p>
+          </div>
+
+         <div class="product-btns d-flex">
+            <button type="submit" name="add_to_cart">add to cart</button>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+        </form>
+      </div>
+         
+
+            <div class="more-btn">
+              <a href="shop.html" class="btn"> see more</a>
+            </div>
+      </section>
+
+
+
+      
+
+       
+
+
+        <footer>
+          <div class="box1">
+
+            <div class="boxinfo">
+              <h3>Free delievery</h3>
+              <p>For all orders over 50, free delievery,Lorem, ipsum.</p>
+            </div>
+  
+            <div class="boxinfo">
+              <h3>90 days Return</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+  
+            <div class="boxinfo">
+              <h3>Secure Payment</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            
+          </div>     
+          <p class="footerpara"> created by <span>elie gamala</span> | all rights reserved</p>
+        </footer>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script src="javascript/javascript.js" async defer></script>
+    <script src="javascript/slider.js" async defer></script>
+
+  </body>
+</html>

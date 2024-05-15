@@ -1,0 +1,72 @@
+:root {
+  --white: #fff;
+  --black: #222;
+  --gray: #d9d9d9;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-flow: column;
+  background-color: var(--black);
+  min-height: 10rem;
+  margin-top: 8rem;
+}
+
+.heading h2 {
+  font-size: 3rem;
+  color: var(--gray);
+  text-transform: capitalize;
+}
+
+.heading p {
+  font-size: 1.5rem;
+}
+
+.heading p a {
+  color: var(--white);
+}
+
+.heading p a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+.heading p span {
+  color: rgb(116, 112, 112);
+}
+
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.about .row .image {
+  flex: 1 1 40rem;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+  text-align: center;
+}
+
+.about .row .content h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: var(--black);
+}
+
+.about .row .content p {
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}

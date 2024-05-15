@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/aboutStyles.css" />
+    <link rel="stylesheet" href="css/checkoutStyles.css" />
+
+
+
+    <!--javascript slider-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+  </head>
+  <body>
+  
+    <!--header-->
+    <header>
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+
+          <!--logo-->
+          <a href="#home" class="logo "> <img src="logo/logo.svg"></a>
+
+
+          <!--navigation-->
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="orders.html" class="nav-link">Orders</a>
+            </li>
+          
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+         
+          </ul>
+
+      
+      
+
+          <!--icons-->
+          <div class="icons d-flex">
+
+                <!--search bar-->
+          <section class="search-form">
+            <form action="" method="post">
+               <input type="text" class="box" name="search_box" placeholder="search here..." maxlength="100">
+               <button type="submit" class="fas fa-search" name="search_btn"></button>
+            </form>
+         </section>
+         
+            <div id="user-btn" class="bx bx-user"></div>           
+            <a href="cart.html" class="icon"><i class="bx bx-cart"></i><span>(3)</span></a>
+          </div>
+
+          
+          <!--menu-hamburger-->
+          <div class="menu-icon">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+        <!--move this later-->
+            <div class="profile">
+              <p class="name"> elie gamala</p>
+              <div class="profile-btn">
+                <a href="profile.html" class="btn"> profile</a>
+                <a href="#" class="delete-btn"> logout</a>
+              </div>
+              <p class="account"> <a href="login.html">login</a> or <a href="register.html">register</a></p>
+            </div>
+      </div>
+    </header>
+
+     <!--header ends-->
+     <div class="heading">
+      <h2>Checkout</h2>
+      <p><a href="index.html"> home</a> <span> / checkout</p>
+    </div>
+
+
+    <section class="checkout">
+      <h1 class="title"> order summmary</h1>
+
+      <form action="" method="post">
+
+      <div class="cart-items">
+        <h3>cart items</h3>
+        <p><span class="name"> gear 5 figurine</span> <span class="price">R3</span></p>
+        <p><span class="name"> ywach bleach tshirt </span> <span class="price">R3</span></p>
+        <p><span class="name"> sakura haruno figurine</span> <span class="price">R3</span></p>
+
+        <p class="grand-total"> <span class="name">grand total :</span> <span class="price">R9</span> </p>
+        <a href="cart.html" class="hero-btn">view cart</a>
+      </div>
+
+
+      <div class="user-info">
+        <h3> your info</h3>
+          <p> <i class="fas fa-user"> </i> <span>elie gamala</span></p>
+          <p> <i class="fas fa-phone"> </i> <span>0682145897</span></p>
+          <p> <i class="fas fa-envelope"> </i> <span>eliegamala@gmail.com</span></p>
+          <a href="update_profile.html" class="hero-btn">update info</a>
+          <h3>delievery address</h3>
+
+          <p> <i class="fas fa-map-marker-alt"></i> <span>85 mochester road 7925</span></p>
+          <a href="update_address.html" class="hero-btn">update address</a>
+
+          <select name="method" class="box" required>
+            <option value="" disabled selected> select Payment method </option>
+            <option value="cash on delivery">cash on delivery </option>
+            <option value="credit card">credit card </option>
+            <option value="paypal"> paypal </option>
+
+          </select>
+          <input type="submit" value="place order" class="hero-btn" style="width: 100%; border: none;">
+      </div>
+
+    </form>
+
+    </section>
+
+    <br>
+
+
+    
+       
+
+
+    <footer>
+      <div class="box1">
+
+        <div class="boxinfo">
+          <h3>Free delievery</h3>
+          <p>For all orders over 50, free delievery,Lorem, ipsum.</p>
+        </div>
+
+        <div class="boxinfo">
+          <h3>90 days Return</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="boxinfo">
+          <h3>Secure Payment</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        
+      </div>     
+      <p class="footerpara"> created by <span>elie gamala</span> | all rights reserved</p>
+    </footer>
+
+
+
+<script src="javascript/javascript.js" async defer></script>
+
+</body>
+</html>
